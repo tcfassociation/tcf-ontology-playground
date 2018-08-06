@@ -1,88 +1,88 @@
-<http://tcftest.org/groups/> <http://schema.org/hasPart> <http://tcftest.org/pouch/> .
-<http://tcftest.org/groups/> <http://schema.org/hasPart> <http://tcftest.org/updates/> .
-<http://tcftest.org/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/CargoHandlersPouch> .
-<http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/CarriersPouch> .
-<http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/CustomsPouch> .
-<http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/ForwarderPouch> .
-<http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/MaritimePouch> .
-<http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/RailPouch> .
-<http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/ShippersPouch> .
-<http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/TruckersPouch> .
-<http://tcftest.org/pouch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/> <http://www.w3.org/2000/01/rdf-schema#label> "Pouches" .
-<http://tcftest.org/pouch/CargoHandlersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/CargoHandlersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Handlers Pouch" .
-<http://tcftest.org/pouch/CarriersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/CarriersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/FlightManifest> .
-<http://tcftest.org/pouch/CarriersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Carriers Pouch" .
-<http://tcftest.org/pouch/CustomsPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/CustomsPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Customclass> .
-<http://tcftest.org/pouch/CustomsPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Pouch" .
-<http://tcftest.org/pouch/ForwarderPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/ForwarderPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/HAWB> .
-<http://tcftest.org/pouch/ForwarderPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/MAWB> .
-<http://tcftest.org/pouch/ForwarderPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder Pouch" .
-<http://tcftest.org/pouch/MaritimePouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/MaritimePouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Port> .
-<http://tcftest.org/pouch/MaritimePouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Vessel> .
-<http://tcftest.org/pouch/MaritimePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Pouch" .
-<http://tcftest.org/pouch/org/EricssonAB> <http://schema.org/url> <http://www.ericsson.com/> .
-<http://tcftest.org/pouch/org/EricssonAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
-<http://tcftest.org/pouch/org/EricssonAB> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson AB" .
-<http://tcftest.org/pouch/org/FinnairAbp> <http://schema.org/url> <http://www.finnair.com/> .
-<http://tcftest.org/pouch/org/FinnairAbp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
-<http://tcftest.org/pouch/org/FinnairAbp> <http://www.w3.org/2000/01/rdf-schema#label> "Finnair Abp" .
-<http://tcftest.org/pouch/org/PanalpinaAB> <http://schema.org/url> <http://www.panalpina.com/> .
-<http://tcftest.org/pouch/org/PanalpinaAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
-<http://tcftest.org/pouch/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
-<http://tcftest.org/pouch/RailPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/BendTheSpoon> .
-<http://tcftest.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/RailPort> .
-<http://tcftest.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/RailroadEngine> .
-<http://tcftest.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/RailroadWaggon> .
-<http://tcftest.org/pouch/RailPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
-<http://tcftest.org/pouch/ShippersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/contributor> <http://tcftest.org/pouch/org/PanalpinaAB> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Consignment> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/DangerousGoodsDeclaration> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/EmptyGood> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/LiamsClass> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/NewClass> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Package> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/ShippersInstruction> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/TestClass> .
-<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/ThisIsANewClass> .
-<http://tcftest.org/pouch/ShippersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Pouch" .
-<http://tcftest.org/pouch/StatusUpdatePouch> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/StatusUpdatePouch> <http://schema.org/hasPart> <http://tcftest.org/schema/StatusUpdate> .
-<http://tcftest.org/pouch/StatusUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update Pouch" .
-<http://tcftest.org/pouch/TrackUpdatePouch> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/TrackUpdatePouch> <http://schema.org/hasPart> <http://tcftest.org/schema/TrackUpdate> .
-<http://tcftest.org/pouch/TrackUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update Pouch" .
-<http://tcftest.org/pouch/TruckersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/pouch/TruckersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
-<http://tcftest.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Truckers Pouch" .
-<http://tcftest.org/updates/> <http://schema.org/hasPart> <http://tcftest.org/pouch/StatusUpdatePouch> .
-<http://tcftest.org/updates/> <http://schema.org/hasPart> <http://tcftest.org/pouch/TrackUpdatePouch> .
-<http://tcftest.org/updates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/updates/> <http://www.w3.org/2000/01/rdf-schema#label> "Updates" .
+<http://tcfplayground.org/groups/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/> .
+<http://tcfplayground.org/groups/> <http://schema.org/hasPart> <http://tcfplayground.org/updates/> .
+<http://tcfplayground.org/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/CargoHandlersPouch> .
+<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/CarriersPouch> .
+<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/CustomsPouch> .
+<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/ForwarderPouch> .
+<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/MaritimePouch> .
+<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/RailPouch> .
+<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/ShippersPouch> .
+<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/TruckersPouch> .
+<http://tcfplayground.org/pouch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/> <http://www.w3.org/2000/01/rdf-schema#label> "Pouches" .
+<http://tcfplayground.org/pouch/CargoHandlersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Handlers Pouch" .
+<http://tcfplayground.org/pouch/CarriersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/CarriersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/FlightManifest> .
+<http://tcfplayground.org/pouch/CarriersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Carriers Pouch" .
+<http://tcfplayground.org/pouch/CustomsPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/CustomsPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Customclass> .
+<http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Pouch" .
+<http://tcfplayground.org/pouch/ForwarderPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/ForwarderPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HAWB> .
+<http://tcfplayground.org/pouch/ForwarderPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/MAWB> .
+<http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder Pouch" .
+<http://tcfplayground.org/pouch/MaritimePouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/MaritimePouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Port> .
+<http://tcfplayground.org/pouch/MaritimePouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Vessel> .
+<http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Pouch" .
+<http://tcfplayground.org/pouch/org/EricssonAB> <http://schema.org/url> <http://www.ericsson.com/> .
+<http://tcfplayground.org/pouch/org/EricssonAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
+<http://tcfplayground.org/pouch/org/EricssonAB> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson AB" .
+<http://tcfplayground.org/pouch/org/FinnairAbp> <http://schema.org/url> <http://www.finnair.com/> .
+<http://tcfplayground.org/pouch/org/FinnairAbp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
+<http://tcfplayground.org/pouch/org/FinnairAbp> <http://www.w3.org/2000/01/rdf-schema#label> "Finnair Abp" .
+<http://tcfplayground.org/pouch/org/PanalpinaAB> <http://schema.org/url> <http://www.panalpina.com/> .
+<http://tcfplayground.org/pouch/org/PanalpinaAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
+<http://tcfplayground.org/pouch/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
+<http://tcfplayground.org/pouch/RailPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/BendTheSpoon> .
+<http://tcfplayground.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/RailPort> .
+<http://tcfplayground.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/RailroadEngine> .
+<http://tcfplayground.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/RailroadWaggon> .
+<http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/contributor> <http://tcfplayground.org/pouch/org/PanalpinaAB> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/DangerousGoodsDeclaration> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/EmptyGood> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/LiamsClass> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/NewClass> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/TestClass> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ThisIsANewClass> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Pouch" .
+<http://tcfplayground.org/pouch/StatusUpdatePouch> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/StatusUpdatePouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update Pouch" .
+<http://tcfplayground.org/pouch/TrackUpdatePouch> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/TrackUpdatePouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update Pouch" .
+<http://tcfplayground.org/pouch/TruckersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Truckers Pouch" .
+<http://tcfplayground.org/updates/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/StatusUpdatePouch> .
+<http://tcfplayground.org/updates/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/TrackUpdatePouch> .
+<http://tcfplayground.org/updates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://tcfplayground.org/updates/> <http://www.w3.org/2000/01/rdf-schema#label> "Updates" .
