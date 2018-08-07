@@ -1,0 +1,539 @@
+<http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcfplayground.org/pouch/TrackUpdate> .
+<http://tcfplayground.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/Accelerometer> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of accelerometer." .
+<http://tcfplayground.org/schema/accelerometer> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer reading submitted as a track update." .
+<http://tcfplayground.org/schema/accelerometer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/accelerometer> <http://www.w3.org/2000/01/rdf-schema#label> "Accelerometer" .
+<http://tcfplayground.org/schema/Accelerometer> <http://www.w3.org/2000/01/rdf-schema#label> "Accelerometer" .
+<http://tcfplayground.org/schema/accelerometer> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcfplayground.org/schema/Accelerometer> .
+<http://tcfplayground.org/schema/airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/airport> <http://www.w3.org/2000/01/rdf-schema#description> "Airport  IATA 3-letter Code ." .
+<http://tcfplayground.org/schema/airport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/airport> <http://www.w3.org/2000/01/rdf-schema#label> "Airport" .
+<http://tcfplayground.org/schema/airport> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcfplayground.org/schema/AirStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/AirStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of air." .
+<http://tcfplayground.org/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#description> "A status update on a logistics object in the transport mode of air." .
+<http://tcfplayground.org/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Air Status Update" .
+<http://tcfplayground.org/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/schema/arrivalTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/arrivalTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A timestamp for the arrival of the airwaybill ." .
+<http://tcfplayground.org/schema/arrivalTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/arrivalTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Arrival Timestamp" .
+<http://tcfplayground.org/schema/arrivalTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/ata-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/ata-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel arrives at a specified location, as per port section standards." .
+<http://tcfplayground.org/schema/ata-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/SeaStatusUpdate> .
+<http://tcfplayground.org/schema/ata-Location> <http://www.w3.org/2000/01/rdf-schema#label> "ATA-Location" .
+<http://tcfplayground.org/schema/ata-Location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/atd-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/atd-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel departs from a specified location, as per port section standards." .
+<http://tcfplayground.org/schema/atd-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/SeaStatusUpdate> .
+<http://tcfplayground.org/schema/atd-Location> <http://www.w3.org/2000/01/rdf-schema#label> "ATD-Location" .
+<http://tcfplayground.org/schema/atd-Location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/attentionTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/attentionTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/awbManifestedPieces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/awbManifestedPieces> <http://www.w3.org/2000/01/rdf-schema#description> "The number of pieces manifested on the AWB ." .
+<http://tcfplayground.org/schema/awbManifestedPieces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/awbManifestedPieces> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Manifested Pieces" .
+<http://tcfplayground.org/schema/awbManifestedPieces> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://tcfplayground.org/schema/awbManifestedWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/awbManifestedWeight> <http://www.w3.org/2000/01/rdf-schema#description> "The weight of pieces manifested on the AWB ." .
+<http://tcfplayground.org/schema/awbManifestedWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/awbManifestedWeight> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Manifested Weight" .
+<http://tcfplayground.org/schema/awbManifestedWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/awbTotalPieces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#description> "The total number of pieces on the AWB ." .
+<http://tcfplayground.org/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Total Pieces" .
+<http://tcfplayground.org/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://tcfplayground.org/schema/awbTotalWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/awbTotalWeight> <http://www.w3.org/2000/01/rdf-schema#description> "The total weight of pieces on the AWB ." .
+<http://tcfplayground.org/schema/awbTotalWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/awbTotalWeight> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Total Weight" .
+<http://tcfplayground.org/schema/awbTotalWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/awbTotalWeightUom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/awbTotalWeightUom> <http://www.w3.org/2000/01/rdf-schema#description> "The unit of measure for the total weight of pieces on the AWB ." .
+<http://tcfplayground.org/schema/awbTotalWeightUom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/awbTotalWeightUom> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Total Weight UoM" .
+<http://tcfplayground.org/schema/awbTotalWeightUom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcfplayground.org/schema/Battery> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Battery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/battery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/Battery> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of battery status." .
+<http://tcfplayground.org/schema/battery> <http://www.w3.org/2000/01/rdf-schema#description> "A device battery reading submitted as a track update." .
+<http://tcfplayground.org/schema/battery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/battery> <http://www.w3.org/2000/01/rdf-schema#label> "Battery" .
+<http://tcfplayground.org/schema/Battery> <http://www.w3.org/2000/01/rdf-schema#label> "Battery" .
+<http://tcfplayground.org/schema/battery> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcfplayground.org/schema/Battery> .
+<http://tcfplayground.org/schema/batteryPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/batteryPercentage> <http://www.w3.org/2000/01/rdf-schema#description> "A device battery reading in Percentage submitted as a track update." .
+<http://tcfplayground.org/schema/batteryPercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Battery> .
+<http://tcfplayground.org/schema/batteryPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Battery Percentage" .
+<http://tcfplayground.org/schema/batteryPercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/batteryVoltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#description> "A device battery reading in Voltage submitted as a track update." .
+<http://tcfplayground.org/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Battery> .
+<http://tcfplayground.org/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#label> "Battery Voltage" .
+<http://tcfplayground.org/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/buyer> <http://www.w3.org/2000/01/rdf-schema#description> "The buyer party for this consignment." .
+<http://tcfplayground.org/schema/buyer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/buyer> <http://www.w3.org/2000/01/rdf-schema#label> "Buyer" .
+<http://tcfplayground.org/schema/buyer> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/cargoType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#description> "Types of cargo handled by the port." .
+<http://tcfplayground.org/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Port> .
+<http://tcfplayground.org/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Type" .
+<http://tcfplayground.org/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<http://tcfplayground.org/schema/cargoVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#description> "Weight of Goods or number of containers per calendar year in tonnes." .
+<http://tcfplayground.org/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Port> .
+<http://tcfplayground.org/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Weight" .
+<http://tcfplayground.org/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcfplayground.org/schema/Port> .
+<http://tcfplayground.org/schema/CommercialInvoice> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/CommercialInvoice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/CommercialInvoice> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a package. Here is one from wikipedia.org - When used in foreign trade, a commercial invoice is a customs document. It is used as a customs declaration provided by the person or corporation that is exporting an item across international borders." .
+<http://tcfplayground.org/schema/CommercialInvoice> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Invoice" .
+<http://tcfplayground.org/schema/CommercialInvoice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/consignee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#description> "The consignee party for this consignment." .
+<http://tcfplayground.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#label> "Consignee" .
+<http://tcfplayground.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/Consignment> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract." .
+<http://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#description> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract." .
+<http://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#label> "Consignment" .
+<http://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/consignor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#description> "The consignor party for this consignment." .
+<http://tcfplayground.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#label> "Consignor" .
+<http://tcfplayground.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/DangerousGoodsDeclaration> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a package. Here is one from businessdictionary.com - Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations." .
+<http://tcfplayground.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#label> "Dangerous Goods Declaration" .
+<http://tcfplayground.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/deliveredTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/deliveredTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the delivery of the airwaybill ." .
+<http://tcfplayground.org/schema/deliveredTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/deliveredTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Delivered Timestamp" .
+<http://tcfplayground.org/schema/deliveredTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/deliverTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/deliverTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/departureTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/departureTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "The departure time stamp of the airwaybill ." .
+<http://tcfplayground.org/schema/departureTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/departureTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Departure Timestamp" .
+<http://tcfplayground.org/schema/departureTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/destination> <http://www.w3.org/2000/01/rdf-schema#description> "An abbreviation for the destination of the airwaybill ." .
+<http://tcfplayground.org/schema/destination> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/destination> <http://www.w3.org/2000/01/rdf-schema#label> "Destination" .
+<http://tcfplayground.org/schema/destination> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcfplayground.org/schema/deviceIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/deviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#description> "An identifier for the device submitting the track update." .
+<http://tcfplayground.org/schema/deviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/deviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Device Identifier" .
+<http://tcfplayground.org/schema/deviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcfplayground.org/schema/deviceName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/deviceName> <http://www.w3.org/2000/01/rdf-schema#description> "A name for the device submitting the track update." .
+<http://tcfplayground.org/schema/deviceName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/deviceName> <http://www.w3.org/2000/01/rdf-schema#label> "Device Name" .
+<http://tcfplayground.org/schema/deviceName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcfplayground.org/schema/discrepancyDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/discrepancyDescription> <http://www.w3.org/2000/01/rdf-schema#description> "This is the discrepancy description." .
+<http://tcfplayground.org/schema/discrepancyDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/discrepancyDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Discrepancy Description" .
+<http://tcfplayground.org/schema/discrepancyDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcfplayground.org/schema/Draft> <http://www.w3.org/2000/01/rdf-schema#label> "Draft" .
+<http://tcfplayground.org/schema/eta-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel estimates it will arrive at a specified location, as per port section standards." .
+<http://tcfplayground.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/SeaStatusUpdate> .
+<http://tcfplayground.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#label> "ETA-Location" .
+<http://tcfplayground.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/etd-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/etd-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel estimates it will depart from a specified location, as per port section standards." .
+<http://tcfplayground.org/schema/etd-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/SeaStatusUpdate> .
+<http://tcfplayground.org/schema/etd-Location> <http://www.w3.org/2000/01/rdf-schema#label> "ETD-Location" .
+<http://tcfplayground.org/schema/etd-Location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/FlightManifest> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/FlightManifest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
+<http://tcfplayground.org/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#label> "Flight Manifest" .
+<http://tcfplayground.org/schema/FlightManifest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/footCandles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/footCandles> <http://www.w3.org/2000/01/rdf-schema#description> "A footcandle reading in submitted as a track update." .
+<http://tcfplayground.org/schema/footCandles> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Light> .
+<http://tcfplayground.org/schema/footCandles> <http://www.w3.org/2000/01/rdf-schema#label> "Footcandles" .
+<http://tcfplayground.org/schema/footCandles> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#description> "The party undertaking the freight forwarding of these consignments." .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "forwarder" .
+<http://tcfplayground.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
+<http://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcfplayground.org/schema/handoverTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/handoverTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/HAWB> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/HAWB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/HAWB> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
+<http://tcfplayground.org/schema/HAWB> <http://www.w3.org/2000/01/rdf-schema#label> "House AirWayBill" .
+<http://tcfplayground.org/schema/HAWB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the height of this trade line item." .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#label> "Height" .
+<http://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcfplayground.org/schema/Humidity> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/humidity> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of humidity." .
+<http://tcfplayground.org/schema/humidity> <http://www.w3.org/2000/01/rdf-schema#description> "A device humidity reading submitted as a track update." .
+<http://tcfplayground.org/schema/humidity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/humidity> <http://www.w3.org/2000/01/rdf-schema#label> "Humidity" .
+<http://tcfplayground.org/schema/humidityPercent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/humidityPercent> <http://www.w3.org/2000/01/rdf-schema#description> "A device humidity reading in percentage submitted as a track update." .
+<http://tcfplayground.org/schema/humidityPercent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Humidity> .
+<http://tcfplayground.org/schema/humidityPercent> <http://www.w3.org/2000/01/rdf-schema#label> "Humidity in Percentage" .
+<http://tcfplayground.org/schema/humidityPercent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/imoNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#description> "A number assigned to sea-going merchant vessels under the International Convention for the Safety of Life at Sea (SOLAS). These are assigned by IHS Fairplay to individual vessels. Format: The characters “IMO” followed by a unique seven-digit number, e.g. “IMO 9227338”." .
+<http://tcfplayground.org/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Vessel> .
+<http://tcfplayground.org/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#label> "IMO Number" .
+<http://tcfplayground.org/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<http://tcfplayground.org/schema/incoterm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/incoterm> <http://www.w3.org/2000/01/rdf-schema#description> "A code specifying a type of delivery for these delivery terms such as the INCOTERMS Terms of Delivery." .
+<http://tcfplayground.org/schema/incoterm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/incoterm> <http://www.w3.org/2000/01/rdf-schema#label> "Incoterm" .
+<http://tcfplayground.org/schema/incoterm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://tcfplayground.org/schema/incotermsLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/incotermsLocation> <http://www.w3.org/2000/01/rdf-schema#description> "A location relevant for these delivery terms." .
+<http://tcfplayground.org/schema/incotermsLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/incotermsLocation> <http://www.w3.org/2000/01/rdf-schema#label> "IncotermsLocation" .
+<http://tcfplayground.org/schema/incotermsLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://tcfplayground.org/schema/infrared> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/infrared> <http://www.w3.org/2000/01/rdf-schema#description> "A device infrared reading submitted as a track update." .
+<http://tcfplayground.org/schema/infrared> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Light> .
+<http://tcfplayground.org/schema/infrared> <http://www.w3.org/2000/01/rdf-schema#label> "Infrared Light" .
+<http://tcfplayground.org/schema/infrared> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://tcfplayground.org/schema/IOLIdentifier> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/IOLIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/iolIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/iolIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The Internet of Logistics Identifier for a connected company." .
+<http://tcfplayground.org/schema/iolIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "IOL Identifier" .
+<http://tcfplayground.org/schema/iolIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcfplayground.org/schema/IOLIdentifier> .
+<http://tcfplayground.org/schema/length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the length of this trade line item." .
+<http://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#label> "Length" .
+<http://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcfplayground.org/schema/Light> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/Light> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of light status." .
+<http://tcfplayground.org/schema/light> <http://www.w3.org/2000/01/rdf-schema#description> "A device light reading submitted as a track update." .
+<http://tcfplayground.org/schema/light> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/light> <http://www.w3.org/2000/01/rdf-schema#label> "Light" .
+<http://tcfplayground.org/schema/Light> <http://www.w3.org/2000/01/rdf-schema#label> "Light" .
+<http://tcfplayground.org/schema/light> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcfplayground.org/schema/Light> .
+<http://tcfplayground.org/schema/logisticObjectReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/logisticObjectReference> <http://www.w3.org/2000/01/rdf-schema#description> "A URI reference to the Logistics Object." .
+<http://tcfplayground.org/schema/logisticObjectReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/schema/logisticObjectReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/logisticObjectReference> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Object Reference" .
+<http://tcfplayground.org/schema/logisticObjectReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://tcfplayground.org/schema/logisticObjectReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcfplayground.org/schema/LogisticsObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/LogisticsObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Hasse changed again, Need a good definition. Here is a place holder - A general classifcation of all objects that are used in the logistics process.  A logistics object might be a plane, a truck. It might also be a document, or a package or a consignment." .
+<http://tcfplayground.org/schema/LogisticsObject> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Object" .
+<http://tcfplayground.org/schema/LogisticsVehicle> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/LogisticsVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/LogisticsVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a logistics vehicle. Here is one from businessdictionary.com - Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations." .
+<http://tcfplayground.org/schema/LogisticsVehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Vehicle" .
+<http://tcfplayground.org/schema/LogisticsVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/lux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/lux> <http://www.w3.org/2000/01/rdf-schema#description> "A device light reading in lux submitted as a track update." .
+<http://tcfplayground.org/schema/lux> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Light> .
+<http://tcfplayground.org/schema/lux> <http://www.w3.org/2000/01/rdf-schema#label> "Light measured in Lux" .
+<http://tcfplayground.org/schema/lux> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://tcfplayground.org/schema/MAWB> <http://purl.org/dc/terms/modified> "2018-02-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/MAWB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
+<http://tcfplayground.org/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#label> "Master AirWayBill" .
+<http://tcfplayground.org/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/netWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the net weight (mass) of this trade line item which excludes all packaging.." .
+<http://tcfplayground.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#label> "netWeight" .
+<http://tcfplayground.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcfplayground.org/schema/notifiedTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the notification of the status update ." .
+<http://tcfplayground.org/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Notified Timestamp" .
+<http://tcfplayground.org/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/origin> <http://www.w3.org/2000/01/rdf-schema#description> "An abbreviation for the origin of the airwaybill ." .
+<http://tcfplayground.org/schema/origin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/origin> <http://www.w3.org/2000/01/rdf-schema#label> "Origin" .
+<http://tcfplayground.org/schema/origin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcfplayground.org/schema/Package> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Package> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical package for this trade line item." .
+<http://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#description> "A physical package for this trade line item." .
+<http://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#label> "Package" .
+<http://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/packageReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/packageReference> <http://www.w3.org/2000/01/rdf-schema#description> "A packaging identifier, expressed as text, for this trade line item" .
+<http://tcfplayground.org/schema/packageReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/packageReference> <http://www.w3.org/2000/01/rdf-schema#label> "PackageReference" .
+<http://tcfplayground.org/schema/packageReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://tcfplayground.org/schema/packageType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#description> "A packaging type, expressed as text, for this trade line item" .
+<http://tcfplayground.org/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#label> "PackageType" .
+<http://tcfplayground.org/schema/packageType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://tcfplayground.org/schema/pickupFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/pickupFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/Port> <http://purl.org/dc/terms/modified> "2018-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Port> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/Port> <http://www.w3.org/2000/01/rdf-schema#comment> "Any port, terminal, offshore terminal, ship and repair yard or roadstead which is normally used for the loading, unloading, repair and anchoring of ships, or any other place at which a ship can call. The word also embraces, geographically, the city or borough which serves shipping interests." .
+<http://tcfplayground.org/schema/Port> <http://www.w3.org/2000/01/rdf-schema#label> "Port" .
+<http://tcfplayground.org/schema/Port> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/portName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/portName> <http://www.w3.org/2000/01/rdf-schema#description> "Any port, terminal, offshore terminal, ship and repair yard or roadstead which is normally used for the loading, unloading, repair and anchoring of ships, or any other place at which a ship can call. The word also embraces, geographically, the city or borough which serves shipping interests." .
+<http://tcfplayground.org/schema/portName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Port> .
+<http://tcfplayground.org/schema/portName> <http://www.w3.org/2000/01/rdf-schema#label> "Port Name" .
+<http://tcfplayground.org/schema/portName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<http://tcfplayground.org/schema/Pressure> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/pressure> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of pressure." .
+<http://tcfplayground.org/schema/pressure> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading submitted as a track update." .
+<http://tcfplayground.org/schema/pressure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/pressure> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure" .
+<http://tcfplayground.org/schema/pressure> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcfplayground.org/schema/Pressure> .
+<http://tcfplayground.org/schema/pressureAltFeet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/pressureAltFeet> <http://www.w3.org/2000/01/rdf-schema#description> "A device altitude reading in feet submitted as a track update." .
+<http://tcfplayground.org/schema/pressureAltFeet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Pressure> .
+<http://tcfplayground.org/schema/pressureAltFeet> <http://www.w3.org/2000/01/rdf-schema#label> "Altitude in Feet" .
+<http://tcfplayground.org/schema/pressureAltFeet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/pressureAltMeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/pressureAltMeter> <http://www.w3.org/2000/01/rdf-schema#description> "A device altitude reading in meters submitted as a track update." .
+<http://tcfplayground.org/schema/pressureAltMeter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Pressure> .
+<http://tcfplayground.org/schema/pressureAltMeter> <http://www.w3.org/2000/01/rdf-schema#label> "Altitude in Meter" .
+<http://tcfplayground.org/schema/pressureAltMeter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/pressureHPascal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/pressureHPascal> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading in Hecto Pascal submitted as a track update." .
+<http://tcfplayground.org/schema/pressureHPascal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Pressure> .
+<http://tcfplayground.org/schema/pressureHPascal> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in Hecto Pascal" .
+<http://tcfplayground.org/schema/pressureHPascal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/pressureKPascal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/pressureKPascal> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading in Kilo Pascal submitted as a track update." .
+<http://tcfplayground.org/schema/pressureKPascal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Pressure> .
+<http://tcfplayground.org/schema/pressureKPascal> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in Kilo Pascal" .
+<http://tcfplayground.org/schema/pressureKPascal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/pressurePmb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/pressurePmb> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading in  millibar submitted as a track update." .
+<http://tcfplayground.org/schema/pressurePmb> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Pressure> .
+<http://tcfplayground.org/schema/pressurePmb> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in in millibar" .
+<http://tcfplayground.org/schema/pressurePmb> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/pressurePsi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#description> "A device pressure reading in PSI submitted as a track update." .
+<http://tcfplayground.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Pressure> .
+<http://tcfplayground.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure in PSI" .
+<http://tcfplayground.org/schema/pressurePsi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/pta-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel is planned to arrive at a specified location, as per port section standards." .
+<http://tcfplayground.org/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/SeaStatusUpdate> .
+<http://tcfplayground.org/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#label> "PTA-Location" .
+<http://tcfplayground.org/schema/pta-Location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/ptd-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/ptd-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel is planned to depart from a specified location, as per port section standards." .
+<http://tcfplayground.org/schema/ptd-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/SeaStatusUpdate> .
+<http://tcfplayground.org/schema/ptd-Location> <http://www.w3.org/2000/01/rdf-schema#label> "PTD-Location" .
+<http://tcfplayground.org/schema/ptd-Location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#description> "The number of packages in the complete shippers instruction" .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity of packages" .
+<http://tcfplayground.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://tcfplayground.org/schema/RailStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/RailStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of rail." .
+<http://tcfplayground.org/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Status Update" .
+<http://tcfplayground.org/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/schema/rejectionReason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/rejectionReason> <http://www.w3.org/2000/01/rdf-schema#description> "This is why the MAWB was rejected ." .
+<http://tcfplayground.org/schema/rejectionReason> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/AirStatusUpdate> .
+<http://tcfplayground.org/schema/rejectionReason> <http://www.w3.org/2000/01/rdf-schema#label> "Rejection Reason" .
+<http://tcfplayground.org/schema/rejectionReason> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#description> "Ultimate Ship To Delivery Date Time." .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#label> "RequestedDeliveryDate" .
+<http://tcfplayground.org/schema/requestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://www.w3.org/2000/01/rdf-schema#description> "A date, time, date time, or other date time value when this trade delivery is available for pick-up." .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://www.w3.org/2000/01/rdf-schema#label> "RequestedPickupDate" .
+<http://tcfplayground.org/schema/requestedPickupDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/RoadStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/RoadStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/RoadStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of road." .
+<http://tcfplayground.org/schema/RoadStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Road Status Update" .
+<http://tcfplayground.org/schema/RoadStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/schema/SeaStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/SeaStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/seaStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/seaStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of sea." .
+<http://tcfplayground.org/schema/seaStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#description> "A status update on a logistics object in the transport mode of Sea." .
+<http://tcfplayground.org/schema/seaStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/schema/seaStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Sea Status Update" .
+<http://tcfplayground.org/schema/seaStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcfplayground.org/schema/SeaStatusUpdate> .
+<http://tcfplayground.org/schema/seller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/seller> <http://www.w3.org/2000/01/rdf-schema#description> "The Seller party for this consignment." .
+<http://tcfplayground.org/schema/seller> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/seller> <http://www.w3.org/2000/01/rdf-schema#label> "Buyer" .
+<http://tcfplayground.org/schema/seller> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://tcfplayground.org/schema/classStatus> <http://tcfplayground.org/schema/Draft> .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://tcfplayground.org/schema/example> "# A shippers instruction in real life\n\n```\n@prefix tcf <http://localhost:8080/schema/> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n<instruction> a tcf:ShippersInstruction ;\n  rdfs:label \"This is a shippers instruction\" .\n```\n" .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition. Here is one from shippingsolutions.com - The Shipper's Letter of Instruction helps to convey specific instructions from the exporter to his agent, usually an international freight forwarder." .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Instruction" .
+<http://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#description> "The reference for the shippers instruction in the shippers system" .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#label> "Reference" .
+<http://tcfplayground.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://tcfplayground.org/schema/Status> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/Status> <http://www.w3.org/2000/01/rdf-schema#comment> "A status on a logistics object of different states such as departed, arrived, deviation, etc." .
+<http://tcfplayground.org/schema/status> <http://www.w3.org/2000/01/rdf-schema#description> "An abbreviation for the status submitted ." .
+<http://tcfplayground.org/schema/status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/schema/status> <http://www.w3.org/2000/01/rdf-schema#label> "Status" .
+<http://tcfplayground.org/schema/Status> <http://www.w3.org/2000/01/rdf-schema#label> "StatusUpdate" .
+<http://tcfplayground.org/schema/status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://tcfplayground.org/schema/Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/schema/statusBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/statusBy> <http://www.w3.org/2000/01/rdf-schema#description> "Which organization has submitted the status update ." .
+<http://tcfplayground.org/schema/statusBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/schema/statusBy> <http://www.w3.org/2000/01/rdf-schema#label> "Status By" .
+<http://tcfplayground.org/schema/statusBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/StatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/StatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/StatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object of different events such as departed, arrived, deviation, etc." .
+<http://tcfplayground.org/schema/StatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update" .
+<http://tcfplayground.org/schema/statusUpdateTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/statusUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the status update ." .
+<http://tcfplayground.org/schema/statusUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/StatusUpdate> .
+<http://tcfplayground.org/schema/statusUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update Timestamp" .
+<http://tcfplayground.org/schema/statusUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/Temperature> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/Temperature> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of temperature." .
+<http://tcfplayground.org/schema/temperature> <http://www.w3.org/2000/01/rdf-schema#description> "A temperature reading submitted as a track update from a device." .
+<http://tcfplayground.org/schema/temperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/temperature> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature" .
+<http://tcfplayground.org/schema/Temperature> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature" .
+<http://tcfplayground.org/schema/temperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcfplayground.org/schema/Temperature> .
+<http://tcfplayground.org/schema/temperatureCelsius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/temperatureCelsius> <http://www.w3.org/2000/01/rdf-schema#description> "A temperature reading in Celsius submitted as a track update from a device." .
+<http://tcfplayground.org/schema/temperatureCelsius> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Temperature> .
+<http://tcfplayground.org/schema/temperatureCelsius> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature in Celsius" .
+<http://tcfplayground.org/schema/temperatureCelsius> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/temperatureFahrenheit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/temperatureFahrenheit> <http://www.w3.org/2000/01/rdf-schema#description> "A temperature reading in Fahrenheit submitted as a track update from a device." .
+<http://tcfplayground.org/schema/temperatureFahrenheit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Temperature> .
+<http://tcfplayground.org/schema/temperatureFahrenheit> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature in Fahrenheit" .
+<http://tcfplayground.org/schema/temperatureFahrenheit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/temperatureKelvin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#description> "A temperature reading in Kelvin submitted as a track update from a device." .
+<http://tcfplayground.org/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Temperature> .
+<http://tcfplayground.org/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature in Kelvin" .
+<http://tcfplayground.org/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcfplayground.org/schema/TestClass1> <http://purl.org/dc/terms/modified> "2018-05-01T14:09:16.543Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/TestClass1> <http://www.w3.org/2000/01/rdf-schema#label> "Test Class 1" .
+<http://tcfplayground.org/schema/TrackUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/TrackUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of different sensoring data such as location, temperature, humidity, accelerometer, or pressure." .
+<http://tcfplayground.org/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "TrackUpdate" .
+<http://tcfplayground.org/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/trackUpdateBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/trackUpdateBy> <http://www.w3.org/2000/01/rdf-schema#description> "Which organization has submitted the track update ." .
+<http://tcfplayground.org/schema/trackUpdateBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/trackUpdateBy> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update " .
+<http://tcfplayground.org/schema/trackUpdateBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcfplayground.org/schema/trackUpdateTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/trackUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the track update ." .
+<http://tcfplayground.org/schema/trackUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/TrackUpdate> .
+<http://tcfplayground.org/schema/trackUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update Timestamp" .
+<http://tcfplayground.org/schema/trackUpdateTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://tcfplayground.org/schema/transportAgreementLaneID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#description> "TBD." .
+<http://tcfplayground.org/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Consignment> .
+<http://tcfplayground.org/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#label> "TransportAgreementLaneID" .
+<http://tcfplayground.org/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://tcfplayground.org/schema/Vessel> <http://purl.org/dc/terms/modified> "2018-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcfplayground.org/schema/Vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcfplayground.org/schema/vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#comment> "Vessel is defined as watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water." .
+<http://tcfplayground.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#description> "Vessel is defined as watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water." .
+<http://tcfplayground.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Vessel> .
+<http://tcfplayground.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#label> "Vessel" .
+<http://tcfplayground.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#label> "Vessel" .
+<http://tcfplayground.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<http://tcfplayground.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcfplayground.org/schema/LogisticsObject> .
+<http://tcfplayground.org/schema/vesselType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#description> "The purpose of the vessel. A comprehensive list of unique vessel types exists in the IHS Fairplay’s comprehensive “statcode”." .
+<http://tcfplayground.org/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Vessel> .
+<http://tcfplayground.org/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#label> "Vessel Type" .
+<http://tcfplayground.org/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<http://tcfplayground.org/schema/visibleLight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/visibleLight> <http://www.w3.org/2000/01/rdf-schema#description> "A visible light reading ubmitted as a track update." .
+<http://tcfplayground.org/schema/visibleLight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Light> .
+<http://tcfplayground.org/schema/visibleLight> <http://www.w3.org/2000/01/rdf-schema#label> "Visible Light" .
+<http://tcfplayground.org/schema/visibleLight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross volume of this trade line item." .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#description> "The volume related to the shippers instruction" .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/ShippersInstruction> .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
+<http://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcfplayground.org/schema/width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the width of this trade line item." .
+<http://tcfplayground.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Package> .
+<http://tcfplayground.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#label> "Width" .
+<http://tcfplayground.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcfplayground.org/schema/x_gvt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/x_gvt> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer x-axis reading submitted as a track update." .
+<http://tcfplayground.org/schema/x_gvt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Accelerometer> .
+<http://tcfplayground.org/schema/x_gvt> <http://www.w3.org/2000/01/rdf-schema#label> "X-axis acceleration" .
+<http://tcfplayground.org/schema/x_gvt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://tcfplayground.org/schema/y_gvt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/y_gvt> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer y-axis reading submitted as a track update." .
+<http://tcfplayground.org/schema/y_gvt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Accelerometer> .
+<http://tcfplayground.org/schema/y_gvt> <http://www.w3.org/2000/01/rdf-schema#label> "Y-axis acceleration" .
+<http://tcfplayground.org/schema/y_gvt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://tcfplayground.org/schema/z_gvt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcfplayground.org/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer z-axis reading submitted as a track update." .
+<http://tcfplayground.org/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcfplayground.org/schema/Accelerometer> .
+<http://tcfplayground.org/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#label> "Z-axis acceleration" .
+<http://tcfplayground.org/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
