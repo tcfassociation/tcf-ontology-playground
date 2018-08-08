@@ -17,19 +17,19 @@
 <http://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Handlers Pouch" .
 <http://tcfplayground.org/pouch/CarriersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcfplayground.org/pouch/CarriersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Carriers Pouch" .
+<http://tcfplayground.org/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Carriers Pouch, you will find data typically from the following documents; Flight Manifest, Freight Booked List, NOTOC." .
 <http://tcfplayground.org/pouch/CarriersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Carriers Pouch" .
 <http://tcfplayground.org/pouch/CustomsPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Customs Pouch" .
+<http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Customs Pouch, you will find data typically from the following documents; TBD." .
 <http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Pouch" .
 <http://tcfplayground.org/pouch/ForwarderPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Forwarder Pouch" .
+<http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Forwarders Pouch, you will find data typically from the following documents; House Waybill, Waybill, House Manifest, Consignment Security Declaration, Booking." .
 <http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder Pouch" .
 <http://tcfplayground.org/pouch/MaritimePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Maritime Pouch" .
+<http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Maritime Pouch, you will find data typically from the following documents; Bill-of-Lading, Sea Waybill." .
 <http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Pouch" .
 <http://tcfplayground.org/pouch/org/EricssonAB> <http://schema.org/url> <http://www.ericsson.com/> .
 <http://tcfplayground.org/pouch/org/EricssonAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
@@ -42,12 +42,11 @@
 <http://tcfplayground.org/pouch/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
 <http://tcfplayground.org/pouch/RailPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Rail Pouch" .
+<http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Rail Pouch, you will find data typically from the following documents; Rail Consignment Note." .
 <http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
 <http://tcfplayground.org/pouch/ShippersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/contributor> <http://tcfplayground.org/pouch/org/PanalpinaAB> .
 <http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Shippers Pouch" .
+<http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Shippers Pouch, you will find data typically from the following documents; Shippers Instruction, Packing List, Commercial Invoice, Certificate of Origin, Dangerous Goods Certificate, Health Certificate." .
 <http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Pouch" .
 <http://tcfplayground.org/pouch/StatusUpdatePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
@@ -59,7 +58,7 @@
 <http://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update Pouch" .
 <http://tcfplayground.org/pouch/TruckersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Truckers Pouch" .
+<http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Trucker Pouch, you will find data typically from the following documents; TBD." .
 <http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Truckers Pouch" .
 <http://tcfplayground.org/updates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://tcfplayground.org/updates/> <http://www.w3.org/2000/01/rdf-schema#label> "Updates" .
