@@ -1,178 +1,178 @@
-<http://tcfplayground.org/groups/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/> .
-<http://tcfplayground.org/groups/> <http://schema.org/hasPart> <http://tcfplayground.org/updates/> .
-<http://tcfplayground.org/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/AirFreightPouch> .
-<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/CargoHandlersPouch> .
-<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/CustomsPouch> .
-<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/ForwarderPouch> .
-<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/MaritimePouch> .
-<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/RailPouch> .
-<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/ShippersPouch> .
-<http://tcfplayground.org/pouch/> <http://schema.org/hasPart> <http://tcfplayground.org/pouch/TruckersPouch> .
-<http://tcfplayground.org/pouch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/> <http://www.w3.org/2000/01/rdf-schema#label> "Pouches" .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Accounting> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Address> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/AirWaybillDetails> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/AirWaybillHead> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/AirWaybillTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Bank> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/BankAccount> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Beneficiary> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/BookingHead> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/BookingTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/BreakdownByLineType> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/BreakdownByTaxRate> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Carriage> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Characteristic> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ChargeDeclaration> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ChargeDescription> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ChargePayment> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ChargeSummary> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/CommodityCode> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Company> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Contact> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ContactOther> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ContainedPiece> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Currency> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Customs> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/CustomsInfo> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/DataLog> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/DataReceived> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/DestinationCountry> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/DestinationLocation> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Dimensions> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/DimensionsPerPiece> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Discount> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Event> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/EventDetails> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Feedback> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/FlagPrepaidCollect> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/FreightTerms> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/GeoLocation> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Geolocation> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Goods> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Handling> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HandlingDetails> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HarmonizedCommodityCode> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HouseManifestHead> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HouseManifestLine> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HouseManifestTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HouseWaybillCustomsInfo> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HouseWaybillDetails> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HouseWaybillHandling> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HouseWaybillHead> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HouseWaybillReferenceDocs> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/HouseWaybillTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/IDother> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ITEM> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Incoterms> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Insurance> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/InsuranceCompany> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/InvoiceHead> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/InvoiceTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Item> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ItemID> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Location> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/LogisticsServiceCharge> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Manufacturer> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Measurement> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Movement> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/MovementDetails> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/OriginCountry> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/OriginLocation> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/OtherCharge> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/OtherCustomsInformation> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/OtherDetails> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/OtherID> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/OtherParty> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/OtherServiceInfo> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/OwnerCompany> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PackageType> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PackingListHead> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PackingListTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PaymentMeans> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PaymentTerms> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PaymentTermsTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Person> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Piece> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PieceDetail> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PieceDetails> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PieceEvent> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PieceID> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PieceItem> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PieceMovement> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/PieceTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Price> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Product> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ProductLine> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ProductLineTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Production> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Quantity> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Rating> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ReferenceDocument> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Response> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Signature> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/SliHead> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/SliTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/SpecialHandling> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/SpecialService> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Status> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/TransportMeans> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ULD> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Units> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/WaybillLine> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/WaybillLineTotals> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/WaybillSummary> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Weight> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "The collection of all air freight documents currently supported by ONE Record"@en .
-<http://tcfplayground.org/pouch/AirFreightPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Air Freight Pouch" .
-<http://tcfplayground.org/pouch/CargoHandlersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Cargo Handlers Pouch, you will find data typically from the following documents; TBD." .
-<http://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Handlers Pouch" .
-<http://tcfplayground.org/pouch/CustomsPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Customs Pouch, you will find data typically from the following documents; TBD." .
-<http://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Pouch" .
-<http://tcfplayground.org/pouch/ForwarderPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Forwarders Pouch, you will find data typically from the following documents; House Waybill, Waybill, House Manifest, Consignment Security Declaration, Booking." .
-<http://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder Pouch" .
-<http://tcfplayground.org/pouch/MaritimePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Maritime Pouch, you will find data typically from the following documents; Bill-of-Lading, Sea Waybill." .
-<http://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Pouch" .
-<http://tcfplayground.org/pouch/RailPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Rail Pouch, you will find data typically from the following documents; Rail Consignment Note." .
-<http://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
-<http://tcfplayground.org/pouch/ShippersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Shippers Pouch, you will find data typically from the following documents; Shippers Instruction, Packing List, Commercial Invoice, Certificate of Origin, Dangerous Goods Certificate, Health Certificate." .
-<http://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Pouch" .
-<http://tcfplayground.org/pouch/StatusUpdatePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Status Update Pouch" .
-<http://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update Pouch" .
-<http://tcfplayground.org/pouch/TrackUpdatePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Track Update Pouch" .
-<http://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update Pouch" .
-<http://tcfplayground.org/pouch/TruckersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Trucker Pouch, you will find data typically from the following documents; TBD." .
-<http://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Truckers Pouch" .
-<http://tcfplayground.org/pouch/org/EricssonAB> <http://schema.org/url> <http://www.ericsson.com/> .
-<http://tcfplayground.org/pouch/org/EricssonAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
-<http://tcfplayground.org/pouch/org/EricssonAB> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson AB" .
-<http://tcfplayground.org/pouch/org/FinnairAbp> <http://schema.org/url> <http://www.finnair.com/> .
-<http://tcfplayground.org/pouch/org/FinnairAbp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
-<http://tcfplayground.org/pouch/org/FinnairAbp> <http://www.w3.org/2000/01/rdf-schema#label> "Finnair Abp" .
-<http://tcfplayground.org/pouch/org/PanalpinaAB> <http://schema.org/url> <http://www.panalpina.com/> .
-<http://tcfplayground.org/pouch/org/PanalpinaAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
-<http://tcfplayground.org/pouch/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
-<http://tcfplayground.org/updates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcfplayground.org/updates/> <http://www.w3.org/2000/01/rdf-schema#label> "Updates" .
+<https://tcfplayground.org/groups/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/> .
+<https://tcfplayground.org/groups/> <http://schema.org/hasPart> <https://tcfplayground.org/updates/> .
+<https://tcfplayground.org/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/AirFreightPouch> .
+<https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/CargoHandlersPouch> .
+<https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/CustomsPouch> .
+<https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/ForwarderPouch> .
+<https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/MaritimePouch> .
+<https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/RailPouch> .
+<https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/ShippersPouch> .
+<https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/TruckersPouch> .
+<https://tcfplayground.org/pouch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/> <http://www.w3.org/2000/01/rdf-schema#label> "Pouches" .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Accounting> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Address> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/AirWaybillDetails> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/AirWaybillHead> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/AirWaybillTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Bank> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/BankAccount> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Beneficiary> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/BookingHead> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/BookingTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/BreakdownByLineType> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/BreakdownByTaxRate> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Carriage> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Characteristic> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ChargeDeclaration> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ChargeDescription> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ChargePayment> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ChargeSummary> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CommodityCode> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Company> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Contact> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ContactOther> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ContainedPiece> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Currency> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Customs> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CustomsInfo> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/DataLog> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/DataReceived> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/DestinationCountry> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/DestinationLocation> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Dimensions> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/DimensionsPerPiece> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Discount> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Event> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/EventDetails> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Feedback> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/FlagPrepaidCollect> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/FreightTerms> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/GeoLocation> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Geolocation> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Goods> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Handling> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HandlingDetails> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HarmonizedCommodityCode> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseManifestHead> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseManifestLine> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseManifestTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseWaybillCustomsInfo> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseWaybillDetails> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseWaybillHandling> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseWaybillHead> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseWaybillReferenceDocs> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseWaybillTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/IDother> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ITEM> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Incoterms> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Insurance> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/InsuranceCompany> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/InvoiceHead> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/InvoiceTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Item> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ItemID> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Location> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/LogisticsServiceCharge> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Manufacturer> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Measurement> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Movement> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/MovementDetails> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/OriginCountry> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/OriginLocation> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/OtherCharge> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/OtherCustomsInformation> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/OtherDetails> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/OtherID> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/OtherParty> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/OtherServiceInfo> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/OwnerCompany> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PackageType> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PackingListHead> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PackingListTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PaymentMeans> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PaymentTerms> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PaymentTermsTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Person> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Piece> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PieceDetail> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PieceDetails> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PieceEvent> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PieceID> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PieceItem> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PieceMovement> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/PieceTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Price> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Product> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ProductLine> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ProductLineTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Production> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Quantity> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Rating> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ReferenceDocument> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Response> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Signature> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/SliHead> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/SliTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/SpecialHandling> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/SpecialService> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Status> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/TransportMeans> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ULD> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Units> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/WaybillLine> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/WaybillLineTotals> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/WaybillSummary> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Weight> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "The collection of all air freight documents currently supported by ONE Record"@en .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Air Freight Pouch" .
+<https://tcfplayground.org/pouch/CargoHandlersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Cargo Handlers Pouch, you will find data typically from the following documents; TBD." .
+<https://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Handlers Pouch" .
+<https://tcfplayground.org/pouch/CustomsPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Customs Pouch, you will find data typically from the following documents; TBD." .
+<https://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Pouch" .
+<https://tcfplayground.org/pouch/ForwarderPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Forwarders Pouch, you will find data typically from the following documents; House Waybill, Waybill, House Manifest, Consignment Security Declaration, Booking." .
+<https://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder Pouch" .
+<https://tcfplayground.org/pouch/MaritimePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Maritime Pouch, you will find data typically from the following documents; Bill-of-Lading, Sea Waybill." .
+<https://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Pouch" .
+<https://tcfplayground.org/pouch/RailPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Rail Pouch, you will find data typically from the following documents; Rail Consignment Note." .
+<https://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
+<https://tcfplayground.org/pouch/ShippersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Shippers Pouch, you will find data typically from the following documents; Shippers Instruction, Packing List, Commercial Invoice, Certificate of Origin, Dangerous Goods Certificate, Health Certificate." .
+<https://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Pouch" .
+<https://tcfplayground.org/pouch/StatusUpdatePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Status Update Pouch" .
+<https://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update Pouch" .
+<https://tcfplayground.org/pouch/TrackUpdatePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Track Update Pouch" .
+<https://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update Pouch" .
+<https://tcfplayground.org/pouch/TruckersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Trucker Pouch, you will find data typically from the following documents; TBD." .
+<https://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Truckers Pouch" .
+<https://tcfplayground.org/pouch/org/EricssonAB> <http://schema.org/url> <http://www.ericsson.com/> .
+<https://tcfplayground.org/pouch/org/EricssonAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
+<https://tcfplayground.org/pouch/org/EricssonAB> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson AB" .
+<https://tcfplayground.org/pouch/org/FinnairAbp> <http://schema.org/url> <http://www.finnair.com/> .
+<https://tcfplayground.org/pouch/org/FinnairAbp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
+<https://tcfplayground.org/pouch/org/FinnairAbp> <http://www.w3.org/2000/01/rdf-schema#label> "Finnair Abp" .
+<https://tcfplayground.org/pouch/org/PanalpinaAB> <http://schema.org/url> <http://www.panalpina.com/> .
+<https://tcfplayground.org/pouch/org/PanalpinaAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
+<https://tcfplayground.org/pouch/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
+<https://tcfplayground.org/updates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://tcfplayground.org/updates/> <http://www.w3.org/2000/01/rdf-schema#label> "Updates" .
