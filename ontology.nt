@@ -1,15 +1,3 @@
-<https://tcfplayground.org/schema/Consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "Specific transport request for one consignee." .
-<https://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#label> "Consignment" .
-<https://tcfplayground.org/schema/Consignment> <http://www.w3.org/2004/02/skos/core#note> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract."^^<http://media-type.described.at/text/markdown> .
-<https://tcfplayground.org/schema/Package> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical package for this trade line item." .
-<https://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#label> "Package" .
-<https://tcfplayground.org/schema/Package> <http://www.w3.org/2004/02/skos/core#note> "A physical package for this trade line item."^^<http://media-type.described.at/text/markdown> .
-<https://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<https://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "Shippers transport request to logistics service provider." .
-<https://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "ShippersInstruction" .
-<https://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2004/02/skos/core#note> "The Shipper's Letter of Instruction helps to convey specific instructions from the exporter to his agent, usually an international freight forwarder."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/accountInformationCode> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/AirWaybill> .
 <https://tcfplayground.org/schema/accountInformationCode> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/HouseWaybill> .
 <https://tcfplayground.org/schema/accountInformationCode> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
@@ -330,8 +318,12 @@
 <https://tcfplayground.org/schema/consignment> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/ShippersInstruction> .
 <https://tcfplayground.org/schema/consignment> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Consignment> .
 <https://tcfplayground.org/schema/consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://tcfplayground.org/schema/Consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://tcfplayground.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "A subset of shippers instruction defined as a separate class." .
+<https://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "Specific transport request for one consignee." .
 <https://tcfplayground.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#label> "consignment" .
+<https://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#label> "Consignment" .
+<https://tcfplayground.org/schema/Consignment> <http://www.w3.org/2004/02/skos/core#note> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/consignment> <http://www.w3.org/2004/02/skos/core#note> "A subset of shippers instruction defined as a separate class."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/contactDetails> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Person> .
 <https://tcfplayground.org/schema/contactDetails> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Person> .
@@ -1103,8 +1095,12 @@
 <https://tcfplayground.org/schema/package> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Consignment> .
 <https://tcfplayground.org/schema/package> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Package> .
 <https://tcfplayground.org/schema/package> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://tcfplayground.org/schema/Package> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical package for this trade line item." .
 <https://tcfplayground.org/schema/package> <http://www.w3.org/2000/01/rdf-schema#comment> "Subset of consignment defined as an own class." .
 <https://tcfplayground.org/schema/package> <http://www.w3.org/2000/01/rdf-schema#label> "package" .
+<https://tcfplayground.org/schema/Package> <http://www.w3.org/2000/01/rdf-schema#label> "Package" .
+<https://tcfplayground.org/schema/Package> <http://www.w3.org/2004/02/skos/core#note> "A physical package for this trade line item."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/package> <http://www.w3.org/2004/02/skos/core#note> "Subset of consignment defined as an own class."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/packagingType> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/LogisticsComponent> .
 <https://tcfplayground.org/schema/packagingType> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/LogisticsComponent> .
@@ -1451,6 +1447,10 @@
 <https://tcfplayground.org/schema/ShipperSignature> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/shipperSignature> <http://www.w3.org/2000/01/rdf-schema#label> "shipperSignature" .
 <https://tcfplayground.org/schema/ShipperSignature> <http://www.w3.org/2000/01/rdf-schema#label> "ShipperSignature" .
+<https://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "Shippers transport request to logistics service provider." .
+<https://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "ShippersInstruction" .
+<https://tcfplayground.org/schema/ShippersInstruction> <http://www.w3.org/2004/02/skos/core#note> "The Shipper's Letter of Instruction helps to convey specific instructions from the exporter to his agent, usually an international freight forwarder."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/signatoryCompany> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/CarrierSignature> .
 <https://tcfplayground.org/schema/signatoryCompany> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/FreightForwarderSignature> .
 <https://tcfplayground.org/schema/signatoryCompany> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/ShipperSignature> .
@@ -1824,14 +1824,19 @@
 <https://tcfplayground.org/schema/vehicleType> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/vehicleType> <http://www.w3.org/2000/01/rdf-schema#label> "vehicleType" .
 <https://tcfplayground.org/schema/volume> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Dimensions> .
+<https://tcfplayground.org/schema/volume> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Package> .
+<https://tcfplayground.org/schema/volume> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
 <https://tcfplayground.org/schema/volume> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Dimensions> .
 <https://tcfplayground.org/schema/volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/Volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/Volume> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+<https://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure of the gross volume of this trade line item." .
 <https://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume" .
+<https://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
 <https://tcfplayground.org/schema/Volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
 <https://tcfplayground.org/schema/Volume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://tcfplayground.org/schema/Value> .
+<https://tcfplayground.org/schema/volume> <http://www.w3.org/2004/02/skos/core#note> "A measure of the gross volume of this trade line item."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/volumetricWeight> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/LogisticsComponent> .
 <https://tcfplayground.org/schema/volumetricWeight> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/LogisticsComponent> .
 <https://tcfplayground.org/schema/volumetricWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
