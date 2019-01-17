@@ -1828,14 +1828,19 @@
 <https://tcfplayground.org/schema/vehicleType> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/vehicleType> <http://www.w3.org/2000/01/rdf-schema#label> "vehicleType" .
 <https://tcfplayground.org/schema/volume> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Dimensions> .
+<https://tcfplayground.org/schema/volume> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Package> .
+<https://tcfplayground.org/schema/volume> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
 <https://tcfplayground.org/schema/volume> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Dimensions> .
 <https://tcfplayground.org/schema/volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/Volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/Volume> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+<https://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure of the gross volume of this trade line item." .
 <https://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume" .
+<https://tcfplayground.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
 <https://tcfplayground.org/schema/Volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
 <https://tcfplayground.org/schema/Volume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://tcfplayground.org/schema/Value> .
+<https://tcfplayground.org/schema/volume> <http://www.w3.org/2004/02/skos/core#note> "A measure of the gross volume of this trade line item."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/volumetricWeight> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/LogisticsComponent> .
 <https://tcfplayground.org/schema/volumetricWeight> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/LogisticsComponent> .
 <https://tcfplayground.org/schema/volumetricWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
