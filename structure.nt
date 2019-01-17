@@ -41,9 +41,9 @@
 <https://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Rail Pouch, you will find data typically from the following documents; Rail Consignment Note." .
 <https://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Consignment> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/Package> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcfplayground.org/schema/ShippersInstruction> .
+<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Consignment> .
+<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Package> .
+<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ShippersInstruction> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Shippers Pouch, you will find data typically from the following documents; Shippers Instruction, Packing List, Commercial Invoice, Certificate of Origin, Dangerous Goods Certificate, Health Certificate." .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Pouch" .
