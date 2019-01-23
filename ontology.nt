@@ -458,6 +458,10 @@
 <https://tcfplayground.org/schema/customsTransitCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/customsTransitCode> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/customsTransitCode> <http://www.w3.org/2000/01/rdf-schema#label> "customsTransitCode" .
+<https://tcfplayground.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://tcfplayground.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#comment> "Documents accompanying the dangerous goods" .
+<https://tcfplayground.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#label> "DangerousGoodsDeclaration" .
+<https://tcfplayground.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/2004/02/skos/core#note> "Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/date> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/AirWaybill> .
 <https://tcfplayground.org/schema/date> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Booking> .
 <https://tcfplayground.org/schema/date> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/CarrierSignature> .
@@ -1012,6 +1016,7 @@
 <https://tcfplayground.org/schema/originDestination> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/AirWaybill> .
 <https://tcfplayground.org/schema/originDestination> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/HouseWaybill> .
 <https://tcfplayground.org/schema/originDestination> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/LogisticsComponent> .
+<https://tcfplayground.org/schema/originDestination> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/TransportDetails> .
 <https://tcfplayground.org/schema/originDestination> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/OriginDestination> .
 <https://tcfplayground.org/schema/originDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/OriginDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
@@ -1725,6 +1730,16 @@
 <https://tcfplayground.org/schema/transportDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/transportDate> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/transportDate> <http://www.w3.org/2000/01/rdf-schema#label> "transportDate" .
+<https://tcfplayground.org/schema/transportDetails> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/DangerousGoodsDeclaration> .
+<https://tcfplayground.org/schema/transportDetails> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/TransportDetails> .
+<https://tcfplayground.org/schema/transportDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://tcfplayground.org/schema/TransportDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://tcfplayground.org/schema/transportDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains origin and destination airport" .
+<https://tcfplayground.org/schema/TransportDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains origin and destination airport" .
+<https://tcfplayground.org/schema/transportDetails> <http://www.w3.org/2000/01/rdf-schema#label> "transportDetails" .
+<https://tcfplayground.org/schema/TransportDetails> <http://www.w3.org/2000/01/rdf-schema#label> "TransportDetails" .
+<https://tcfplayground.org/schema/transportDetails> <http://www.w3.org/2004/02/skos/core#note> "Contains origin and destination airport"^^<http://media-type.described.at/text/markdown> .
+<https://tcfplayground.org/schema/TransportDetails> <http://www.w3.org/2004/02/skos/core#note> "Contains origin and destination airport"^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/transportIdentifier> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/TransportSegment> .
 <https://tcfplayground.org/schema/transportIdentifier> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://tcfplayground.org/schema/transportIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
