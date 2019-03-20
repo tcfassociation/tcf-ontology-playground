@@ -1,6 +1,3 @@
-<https://tcfplayground.org/groups/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/> .
-<https://tcfplayground.org/groups/> <http://schema.org/hasPart> <https://tcfplayground.org/updates/> .
-<https://tcfplayground.org/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/AirFreightPouch> .
 <https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/CargoHandlersPouch> .
 <https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/CustomsPouch> .
