@@ -329,6 +329,11 @@
 <https://tcfplayground.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#label> "Consignment" .
 <https://tcfplayground.org/schema/Consignment> <http://www.w3.org/2004/02/skos/core#note> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/consignment> <http://www.w3.org/2004/02/skos/core#note> "A subset of shippers instruction defined as a separate class."^^<http://media-type.described.at/text/markdown> .
+<https://tcfplayground.org/schema/contact> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Custom> .
+<https://tcfplayground.org/schema/contact> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/ContactDetails> .
+<https://tcfplayground.org/schema/contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://tcfplayground.org/schema/contact> <http://www.w3.org/2000/01/rdf-schema#comment> "Contact details" .
+<https://tcfplayground.org/schema/contact> <http://www.w3.org/2000/01/rdf-schema#label> "Contact" .
 <https://tcfplayground.org/schema/contactDetails> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Person> .
 <https://tcfplayground.org/schema/contactDetails> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Person> .
 <https://tcfplayground.org/schema/contactDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
