@@ -913,14 +913,18 @@
 <https://tcfplayground.org/schema/Latitude> <http://www.w3.org/2000/01/rdf-schema#label> "Latitude" .
 <https://tcfplayground.org/schema/Latitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://tcfplayground.org/schema/Value> .
 <https://tcfplayground.org/schema/length> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Dimensions> .
+<https://tcfplayground.org/schema/length> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Package> .
+<https://tcfplayground.org/schema/length> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
 <https://tcfplayground.org/schema/length> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Dimensions> .
 <https://tcfplayground.org/schema/length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/Length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/Length> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+<https://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure of the length of this trade line item." .
 <https://tcfplayground.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#label> "length" .
 <https://tcfplayground.org/schema/Length> <http://www.w3.org/2000/01/rdf-schema#label> "Length" .
 <https://tcfplayground.org/schema/Length> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://tcfplayground.org/schema/Value> .
+<https://tcfplayground.org/schema/length> <http://www.w3.org/2004/02/skos/core#note> "A measure of the length of this trade line item."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/loadingIndicator> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Uld> .
 <https://tcfplayground.org/schema/loadingIndicator> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://tcfplayground.org/schema/loadingIndicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
