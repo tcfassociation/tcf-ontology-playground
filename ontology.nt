@@ -742,14 +742,19 @@
 <https://tcfplayground.org/schema/HandlingDetails> <http://www.w3.org/2000/01/rdf-schema#label> "HandlingDetails" .
 <https://tcfplayground.org/schema/HandlingDetails> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://tcfplayground.org/schema/Handling> .
 <https://tcfplayground.org/schema/height> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Dimensions> .
+<https://tcfplayground.org/schema/height> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Package> .
+<https://tcfplayground.org/schema/height> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
 <https://tcfplayground.org/schema/height> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Dimensions> .
 <https://tcfplayground.org/schema/height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/Height> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+<https://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure of the height of this trade line item." .
 <https://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#label> "height" .
+<https://tcfplayground.org/schema/height> <http://www.w3.org/2000/01/rdf-schema#label> "Height" .
 <https://tcfplayground.org/schema/Height> <http://www.w3.org/2000/01/rdf-schema#label> "Height" .
 <https://tcfplayground.org/schema/Height> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://tcfplayground.org/schema/Value> .
+<https://tcfplayground.org/schema/height> <http://www.w3.org/2004/02/skos/core#note> "A measure of the height of this trade line item."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/houseManifest> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/HouseManifest> .
 <https://tcfplayground.org/schema/houseManifest> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/HouseManifest> .
 <https://tcfplayground.org/schema/houseManifest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
