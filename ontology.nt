@@ -1012,6 +1012,12 @@
 <https://tcfplayground.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#label> "netWeight" .
 <https://tcfplayground.org/schema/NetWeight> <http://www.w3.org/2000/01/rdf-schema#label> "NetWeight" .
 <https://tcfplayground.org/schema/NetWeight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://tcfplayground.org/schema/Value> .
+<https://tcfplayground.org/schema/netWeigth> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Package> .
+<https://tcfplayground.org/schema/netWeigth> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
+<https://tcfplayground.org/schema/netWeigth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://tcfplayground.org/schema/netWeigth> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure of the net weight (mass) of this trade line item which excludes all packaging." .
+<https://tcfplayground.org/schema/netWeigth> <http://www.w3.org/2000/01/rdf-schema#label> "netWeigth" .
+<https://tcfplayground.org/schema/netWeigth> <http://www.w3.org/2004/02/skos/core#note> "A measure of the net weight (mass) of this trade line item which excludes all packaging."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/noCarriageValue> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Carriage> .
 <https://tcfplayground.org/schema/noCarriageValue> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://tcfplayground.org/schema/noCarriageValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
