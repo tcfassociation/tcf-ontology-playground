@@ -708,15 +708,19 @@
 <https://tcfplayground.org/schema/grandTotalCollectCharges> <http://www.w3.org/2000/01/rdf-schema#label> "grandTotalCollectCharges" .
 <https://tcfplayground.org/schema/GrandTotalCollectCharges> <http://www.w3.org/2000/01/rdf-schema#label> "GrandTotalCollectCharges" .
 <https://tcfplayground.org/schema/GrandTotalCollectCharges> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://tcfplayground.org/schema/Value> .
+<https://tcfplayground.org/schema/grossWeight> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Package> .
 <https://tcfplayground.org/schema/grossWeight> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Weight> .
+<https://tcfplayground.org/schema/grossWeight> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#double> .
 <https://tcfplayground.org/schema/grossWeight> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Weight> .
 <https://tcfplayground.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/GrossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/GrossWeight> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+<https://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Total package weight including packaging." .
 <https://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
 <https://tcfplayground.org/schema/GrossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "GrossWeight" .
 <https://tcfplayground.org/schema/GrossWeight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://tcfplayground.org/schema/Value> .
+<https://tcfplayground.org/schema/grossWeight> <http://www.w3.org/2004/02/skos/core#note> "A measure of the gross weight (mass) of this trade line item which includes packaging but which excludes any associated transport equipment.\" ."^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/groundsForExemption> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/ReasonsForSecurityStatus> .
 <https://tcfplayground.org/schema/groundsForExemption> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://tcfplayground.org/schema/groundsForExemption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
