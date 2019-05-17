@@ -40,8 +40,8 @@
 <https://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CommercialInvoice> .
+<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CommercialQuote> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Consignment> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CustomerPurchaseOrder> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/DangerousGoodsDeclaration> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Item> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Package> .
