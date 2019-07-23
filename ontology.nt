@@ -421,6 +421,9 @@
 <https://tcfplayground.org/schema/Custom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://tcfplayground.org/schema/Custom> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific custom" .
 <https://tcfplayground.org/schema/Custom> <http://www.w3.org/2000/01/rdf-schema#label> "Custom" .
+<https://tcfplayground.org/schema/CustomerPurchaseOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://tcfplayground.org/schema/CustomerPurchaseOrder> <http://www.w3.org/2000/01/rdf-schema#comment> "The purchaser's authorization used to formalize a purchase transaction for goods or services with an approved supplier" .
+<https://tcfplayground.org/schema/CustomerPurchaseOrder> <http://www.w3.org/2000/01/rdf-schema#label> "CustomerPurchaseOrder" .
 <https://tcfplayground.org/schema/customs> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/ChargeDeclaration> .
 <https://tcfplayground.org/schema/customs> <http://schema.org/rangeIncludes> <https://tcfplayground.org/schema/Customs> .
 <https://tcfplayground.org/schema/customs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
