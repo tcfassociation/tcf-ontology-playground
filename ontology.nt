@@ -892,11 +892,16 @@
 <https://tcfplayground.org/schema/issuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/issuer> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/issuer> <http://www.w3.org/2000/01/rdf-schema#label> "issuer" .
+<https://tcfplayground.org/schema/item> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Package> .
+<https://tcfplayground.org/schema/item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <https://tcfplayground.org/schema/Item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://tcfplayground.org/schema/Item> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/Item> <http://www.w3.org/2000/01/rdf-schema#comment> "Product delivered by seller to buyer" .
+<https://tcfplayground.org/schema/item> <http://www.w3.org/2000/01/rdf-schema#comment> "Representing a specific product or material" .
+<https://tcfplayground.org/schema/item> <http://www.w3.org/2000/01/rdf-schema#label> "Item" .
 <https://tcfplayground.org/schema/Item> <http://www.w3.org/2000/01/rdf-schema#label> "Item" .
 <https://tcfplayground.org/schema/Item> <http://www.w3.org/2004/02/skos/core#note> "A unique manufactured or purchased part, material. intermediate sub-assembly ir product ([as defiend by ASCM Dictionary v15](http://www.apics.org/apics-for-individuals/publications-and-research/apics-dictionary))"^^<http://media-type.described.at/text/markdown> .
+<https://tcfplayground.org/schema/item> <http://www.w3.org/2004/02/skos/core#note> "A unique manufactured or purchased part, material. intermediate sub-assembly or product (\\[as defined by ASCM Dictionary v15\\]([http://www.apics.org/apics-for-individuals/publications-and-research/apics-dictionary](http://www.apics.org/apics-for-individuals/publications-and-research/apics-dictionary)))"^^<http://media-type.described.at/text/markdown> .
 <https://tcfplayground.org/schema/itemIdentifier> <http://schema.org/domainIncludes> <https://tcfplayground.org/schema/Item> .
 <https://tcfplayground.org/schema/itemIdentifier> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://tcfplayground.org/schema/itemIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
