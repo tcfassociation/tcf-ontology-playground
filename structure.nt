@@ -42,6 +42,7 @@
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CommercialInvoice> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CommercialQuote> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Consignment> .
+<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CustomerPurchaseOrder> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/DangerousGoodsDeclaration> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Item> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Package> .
