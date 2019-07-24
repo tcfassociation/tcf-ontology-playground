@@ -8,61 +8,64 @@
 <https://tcfplayground.org/pouch/> <http://schema.org/hasPart> <https://tcfplayground.org/pouch/TruckersPouch> .
 <https://tcfplayground.org/pouch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/> <http://www.w3.org/2000/01/rdf-schema#label> "Pouches" .
-<https://tcfplayground.org/pouch/AirFreightPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/AirWaybill> .
-<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Booking> .
-<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseManifest> .
-<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/HouseWaybill> .
-<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ULD> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Address> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/AirWaybill> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Booking> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Company> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/CustomsInfo> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Dimensions> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Event> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/ExternalReference> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Geolocation> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Handling> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/HouseManifest> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/HouseWaybill> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Insurance> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Item> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Location> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/LogisticsComponent> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/OtherParty> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Person> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Piece> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/PieceGrouping> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Product> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Rating> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/SecurityInfo> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/TransportSegment> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/TransportStatus> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Value> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/VolumetricWeight> .
+<https://tcfplayground.org/pouch/AirFreightPouch> <http://schema.org/hasPart> <https://tcfplayground.org/Weight> .
 <https://tcfplayground.org/pouch/AirFreightPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/AirFreightPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "The collection of all air freight documents currently supported by ONE Record"@en .
 <https://tcfplayground.org/pouch/AirFreightPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Air Freight Pouch" .
-<https://tcfplayground.org/pouch/CargoHandlersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Cargo Handlers Pouch, you will find data typically from the following documents; TBD." .
 <https://tcfplayground.org/pouch/CargoHandlersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Cargo Handlers Pouch" .
-<https://tcfplayground.org/pouch/CustomsPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://tcfplayground.org/pouch/CustomsPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Custom> .
 <https://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Customs Pouch, you will find data typically from the following documents; TBD." .
 <https://tcfplayground.org/pouch/CustomsPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Customs Pouch" .
-<https://tcfplayground.org/pouch/ForwarderPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Forwarders Pouch, you will find data typically from the following documents; House Waybill, Waybill, House Manifest, Consignment Security Declaration, Booking." .
 <https://tcfplayground.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder Pouch" .
-<https://tcfplayground.org/pouch/MaritimePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Maritime Pouch, you will find data typically from the following documents; Bill-of-Lading, Sea Waybill." .
 <https://tcfplayground.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Pouch" .
-<https://tcfplayground.org/pouch/RailPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Rail Pouch, you will find data typically from the following documents; Rail Consignment Note." .
 <https://tcfplayground.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CommercialInvoice> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CommercialQuote> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Consignment> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/CustomerPurchaseOrder> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/DangerousGoodsDeclaration> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Item> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/Package> .
-<https://tcfplayground.org/pouch/ShippersPouch> <http://schema.org/hasPart> <https://tcfplayground.org/schema/ShippersInstruction> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Shippers Pouch, you will find data typically from the following documents; Shippers Instruction, Packing List, Commercial Invoice, Certificate of Origin, Dangerous Goods Certificate, Health Certificate." .
 <https://tcfplayground.org/pouch/ShippersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Shippers Pouch" .
-<https://tcfplayground.org/pouch/StatusUpdatePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Status Update Pouch" .
 <https://tcfplayground.org/pouch/StatusUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Status Update Pouch" .
-<https://tcfplayground.org/pouch/TrackUpdatePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "Everything related to the Track Update Pouch" .
 <https://tcfplayground.org/pouch/TrackUpdatePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Track Update Pouch" .
-<https://tcfplayground.org/pouch/TruckersPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Trucker Pouch, you will find data typically from the following documents; TBD." .
 <https://tcfplayground.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Truckers Pouch" .
-<https://tcfplayground.org/schema/TransportStatus> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://tcfplayground.org/schema/TransportStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://tcfplayground.org/schema/TransportStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "" .
 <https://tcfplayground.org/schema/TransportStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Transport Status" .
