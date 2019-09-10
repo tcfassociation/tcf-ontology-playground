@@ -1710,10 +1710,13 @@
 <https://tcfplayground.org/uRI> <http://www.w3.org/2000/01/rdf-schema#label> "uRI"@en .
 <https://tcfplayground.org/value> <http://schema.org/domainIncludes> <https://tcfplayground.org/Characteristic> .
 <https://tcfplayground.org/value> <http://schema.org/domainIncludes> <https://tcfplayground.org/CommonObjects> .
+<https://tcfplayground.org/value> <http://schema.org/domainIncludes> <https://tcfplayground.org/Measurement> .
 <https://tcfplayground.org/value> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
 <https://tcfplayground.org/value> <http://schema.org/rangeIncludes> <https://tcfplayground.org/Measurement> .
 <https://tcfplayground.org/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://tcfplayground.org/value> <http://www.w3.org/2000/01/rdf-schema#comment> "actual value of the measurement (e.g. \"90\" kg)" .
 <https://tcfplayground.org/value> <http://www.w3.org/2000/01/rdf-schema#comment> "Product characteristic value / attribute - e.g. Blue…"@en .
+<https://tcfplayground.org/value> <http://www.w3.org/2000/01/rdf-schema#label> "value" .
 <https://tcfplayground.org/value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en .
 <https://tcfplayground.org/vehicleRegistration> <http://schema.org/domainIncludes> <https://tcfplayground.org/TransportSegment> .
 <https://tcfplayground.org/vehicleRegistration> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
